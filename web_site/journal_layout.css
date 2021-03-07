@@ -1,4 +1,11 @@
 body {
+    background: url("./images/background.png");
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
     border: 5px solid green;
 }
 
@@ -11,6 +18,9 @@ body {
 }
 
 .post {
+    padding: 5px;
+    margin-top: 10px;
+    background: #E8FBFB;
     border: 5px solid blue;
 }
 
