@@ -10,6 +10,7 @@ body {
 }
 
 .header {
+    text-align: end;
     border: 5px solid red;
 }
 
@@ -18,10 +19,17 @@ body {
 }
 
 .post {
+    height: auto;
+    overflow: auto;
+
     padding: 5px;
     margin-top: 10px;
     background: #E8FBFB;
     border: 5px solid blue;
+}
+
+.post p img {
+    float: right;
 }
 
 .post .post-date {
